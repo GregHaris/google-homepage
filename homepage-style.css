@@ -115,3 +115,29 @@
   height: 92px;
   width: 272px;
 }
+
+.search-and-input-section {
+    max-height: 160px;
+    padding: 20px;
+}
+
+.search-and-input-bar {
+    display: flex;
+    position: relative;
+    min-height: 44px;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    border-radius: 24px;
+    margin: 0 auto;
+    width: auto;
+    max-width: 584px;
+}
+
+.search-icon-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 13px;
+    padding-left: 14px;
+    height: 46px;
+}
