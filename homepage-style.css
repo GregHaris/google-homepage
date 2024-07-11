@@ -34,44 +34,44 @@
   justify-content: flex-end;
   height: 48px;
   font-size: 13px;
-  font-family: Arial, sans-serif, "Roboto",;
+  font-family: Arial, sans-serif, "Roboto";
   position: relative;
   float: right;
 }
 
 .nav-bar-list-items {
-    line-height: normal;
-    padding-right: 15px;
+  line-height: normal;
+  padding-right: 15px;
 }
 
 .nav-bar-list-items div {
-    display: inline-block;
+  display: inline-block;
 }
 
 .nav-bar-list-items div a {
-    font-size: 13px;
-    text-decoration: none;
-    vertical-align: center;
+  font-size: 13px;
+  text-decoration: none;
+  vertical-align: center;
 }
 
 .images {
-    padding-left: 13px;
+  padding-left: 13px;
 }
 
 .nav-bar-icon-items {
-    display: flex;
+  display: flex;
 }
 
-.icon-container{
-    padding: 4px;
-    display: inline-block;
-    width: 48px;
-    height: 48px;
-    align-content: center;
+.icon-container {
+  padding: 4px;
+  display: inline-block;
+  width: 48px;
+  height: 48px;
+  align-content: center;
 }
 
 .searchLab-container {
-    padding-left: 0;
+  padding-left: 0;
 }
 
 .searchLab,
@@ -83,11 +83,11 @@
 .searchLab a,
 .apps a,
 .account a {
-    text-decoration: none;
-    cursor: pointer;
-    border-radius: 50%;
-    outline: none;
-    padding: 4px;
+  text-decoration: none;
+  cursor: pointer;
+  border-radius: 50%;
+  outline: none;
+  padding: 4px;
 }
 
 .account img {
@@ -95,4 +95,23 @@
   height: 32px;
   border-radius: 50%;
   border: 0.5px solid rgb(201, 200, 200);
+}
+
+.logo-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  flex-shrink: 0;
+}
+
+.logo-container-height {
+  max-height: 290px;
+  min-height: 150px;
+  height: 30vh;
+}
+
+.logo img {
+  height: 92px;
+  width: 272px;
 }
