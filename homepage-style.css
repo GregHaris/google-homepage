@@ -1,6 +1,98 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    height: 100vh;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: rgb(31, 31, 31);
+  font-family: Arial, sans-serif, Helvetica;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.homepage-container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.nav-bar {
+  display: flex;
+  align-items: center;
+  height: 60px;
+  padding: 6px;
+  flex-shrink: 0;
+}
+
+.nav-bar-item-container {
+  display: inline-block;
+  flex-grow: 1;
+}
+
+.nav-bar-items {
+  display: flex;
+  align-items: center;
+  padding: 0 4px 0 32px;
+  justify-content: flex-end;
+  height: 48px;
+  font-size: 13px;
+  font-family: Arial, sans-serif, "Roboto",;
+  position: relative;
+  float: right;
+}
+
+.nav-bar-list-items {
+    line-height: normal;
+    padding-right: 15px;
+}
+
+.nav-bar-list-items div {
+    display: inline-block;
+}
+
+.nav-bar-list-items div a {
+    font-size: 13px;
+    text-decoration: none;
+    vertical-align: center;
+}
+
+.images {
+    padding-left: 13px;
+}
+
+.nav-bar-icon-items {
+    display: flex;
+}
+
+.icon-container{
+    padding: 4px;
+    display: inline-block;
+    width: 48px;
+    height: 48px;
+    align-content: center;
+}
+
+.searchLab-container {
+    padding-left: 0;
+}
+
+.searchLab,
+.apps {
+  display: flex;
+  justify-content: center;
+}
+
+.searchLab a,
+.apps a,
+.account a {
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 50%;
+    outline: none;
+    padding: 4px;
+}
+
+.account img {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  border: 0.5px solid rgb(201, 200, 200);
 }
